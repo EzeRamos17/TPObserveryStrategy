@@ -2,3 +2,11 @@
 2025-06-03 16:17:55 - Temperatura: 20,3 °C
 2025-06-03 16:39:21 - Temperatura: 19,5 °C
 2025-06-03 16:39:26 - Temperatura: 19,5 °C
+2025-06-03 16:41:05 - Temperatura: 19,5 °C
+2025-06-03 16:41:11 - Temperatura: 19,5 °C
+2025-06-03 16:43:40 - Temperatura: 19,5 °C
+2025-06-03 16:43:46 - Temperatura: 19,5 °C
+2025-06-03 16:44:29 - Temperatura: 19,5 °C
+2025-06-03 16:44:34 - Temperatura: 19,5 °C
+2025-06-03 16:45:52 - Temperatura: 19,5 °C
+2025-06-03 16:45:58 - Temperatura: 19,5 °C

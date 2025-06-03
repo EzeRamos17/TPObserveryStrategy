@@ -3,9 +3,12 @@ package observer.ejercicio1;
 public class ConsoleObserver implements WeatherObserver {
     @Override
     public void update(String temperature) {
-        // Extraer el valor numérico de la temperatura (asumiendo formato "XX.X °C")
+        // Extraer el valor numérico de la temperatura (asumiendo formato "XX,X °C")
         try {
-            double temp = Double.parseDouble(temperature.replace(" °C", ""));
+            String tempStr = temperature.replace(" °C", "").trim();
+            // Reemplazar la coma por punto para el parseo
+            tempStr = tempStr.replace(",", ".");
+            double temp = Double.parseDouble(tempStr);
             
             if (temp < 12) {
                 System.out.println("Hace frio, se encenderá la caldera");
@@ -14,6 +17,7 @@ public class ConsoleObserver implements WeatherObserver {
             }
         } catch (NumberFormatException e) {
             System.err.println("Error al procesar la temperatura: " + temperature);
+            e.printStackTrace();
         }
     }
 } 
