@@ -6,7 +6,6 @@ import java.util.List;
 public class Medidor extends Sujeto {
     private String temperatura;
     private ClimaOnline clima;
-    //private List<WeatherObserver> observers = new ArrayList<>();
 
     public Medidor(ClimaOnline clima) {
         this.clima = clima;
