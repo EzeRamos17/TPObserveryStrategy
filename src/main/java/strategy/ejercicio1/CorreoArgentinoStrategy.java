@@ -21,6 +21,8 @@ public class CorreoArgentinoStrategy implements EnvioStrategy {
     }
 
     private double obtenerDistanciaDesdeCapital(String destino) {
+        // En una implementación real, esto haría una llamada HTTP al servicio
+        // http://distancia.ar?orgen=capital&destino=xxx
         return DISTANCIA_SIMULADA;
     }
 } 
