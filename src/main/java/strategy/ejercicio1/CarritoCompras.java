@@ -38,8 +38,4 @@ public class CarritoCompras {
 
         return productosTotal + costoDeEnvio;
     }
-
-    public List<Producto> Productos() {
-        return productos;
-    }
 } 
